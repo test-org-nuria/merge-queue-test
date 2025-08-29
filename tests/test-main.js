@@ -34,6 +34,7 @@ class TestRunner {
 
 const runner = new TestRunner();
 
+// Test for helloWorld
 runner.test('helloWorld should return greeting', () => {
     const result = helloWorld();
     runner.assertEqual(result, "Hello, World");
