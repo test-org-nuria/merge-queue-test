@@ -40,6 +40,7 @@ runner.test('helloWorld should return greeting', () => {
     runner.assertEqual(result, "Hello, World");
 });
 
+// this should fail
 runner.test('helloWorld2 should return greeting', () => {
     const result = helloWorld2();
     runner.assertEqual(result, "Hello, World!");
