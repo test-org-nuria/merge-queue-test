@@ -1,4 +1,4 @@
-import { helloWorld } from '../src/main.js';
+import { helloWorld, helloWorld2 } from '../src/main.js';
 
 class TestRunner {
     constructor() {
@@ -34,9 +34,15 @@ class TestRunner {
 
 const runner = new TestRunner();
 
+// Test for helloWorld
 runner.test('helloWorld should return greeting', () => {
     const result = helloWorld();
     runner.assertEqual(result, "Hello, World");
+});
+
+runner.test('helloWorld2 should return greeting', () => {
+    const result = helloWorld2();
+    runner.assertEqual(result, "Hello, World!");
 });
 
 runner.run();
