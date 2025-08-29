@@ -1,0 +1,16 @@
+{
+  "name": "merge-queue-test",
+  "version": "1.0.0",
+  "description": "Testing merge queue functionality with JavaScript",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/test-main.js",
+    "start": "node src/main.js",
+    "lint": "echo '🔍 Running ESLint...' && sleep 2 && echo '✅ Linting passed!'",
+    "security": "echo '🛡️ Running security audit...' && sleep 2 && echo '✅ Security scan passed!'"
+  },
+  "keywords": ["testing", "merge-queue", "github-actions"],
+  "author": "Your Name",
+  "license": "MIT"
+}
